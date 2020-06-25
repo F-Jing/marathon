@@ -1,0 +1,486 @@
+.page-mainer {
+  width: 100%;
+  height: 100%;
+  font-size: 0px;
+}
+
+.banner-section {
+  background: #fff;
+}
+
+.banner-img {
+  width: 1920px;
+  margin: 0 auto;
+}
+
+.nav-section {
+  height: 90px;
+  background: rgba(0, 120, 65, 1);
+}
+
+.nav-container {
+  width: 1920px;
+  margin: 0 auto;
+  position: relative;
+  padding-left: 360px;
+}
+
+.nav-highlight {
+  position: absolute;
+  left: 360px;
+}
+
+.nav-list {
+  width: 1131px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-item {
+  z-index: 1;
+  width: 174px;
+  height: 90px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.nav-item-img {
+  margin-top: 45px;
+  transform: translateY(-50%);
+}
+
+.intro-section {
+  background: #00aa46;
+}
+
+.intro-container {
+  width: 1920px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.intro-img {
+  width: 1920px;
+}
+
+.intro-info {
+  font-size: 18px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  line-height: 36px;
+  position: absolute;
+  top: 411px;
+  left: 654px;
+}
+
+.track-section {
+  background-image: url(./../images/bg-white.png);
+  position: relative;
+}
+
+.track-container {
+  width: 1920px;
+  margin: 0 auto;
+  padding: 100px 0 80px 0;
+}
+
+.track-title {
+  margin-left: 476px;
+  display: inline-block;
+  margin-bottom: 34px;
+}
+
+.track-btn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  right: 0;
+  position: absolute;
+  top: 80px;
+  padding: 0;
+}
+
+.track-content {
+  margin: 0 auto;
+  width: 1144px;
+  font-size: 0px;
+}
+
+.track-content-side {
+  width: 70px;
+  height: 1127px;
+  background: rgba(0, 120, 65, 1);
+  text-align: center;
+  padding-top: 50%;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.track-side-img {
+  transform: translateY(-50%);
+}
+
+.track-content-table {
+  width: 1064px;
+  display: inline-block;
+  vertical-align: top;
+  /* height: 1127px; */
+}
+
+.table-head-list {
+  height: 71px;
+  display: flex;
+  text-align: center;
+}
+
+.table-head-item {
+  width: 149px;
+  background-color: #252222;
+  font-size: 18px;
+  font-family: PingFangSC-Semibold, PingFang SC;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+  line-height: 71px;
+  border-right: 1px solid #C2D6CD;
+}
+
+.table-head-item.differ {
+  width: 175px;
+  background: rgba(0, 0, 0, 1);
+  border: none;
+}
+
+.table-body-list {
+  display: flex;
+  text-align: center;
+  vertical-align: middle;
+  height: 178px;
+  border-bottom: 10px solid #00A947;
+  background-color: #fff;
+}
+
+.table-body-list.differ {
+  height: 168px;
+}
+
+.table-body-item {
+  width: 149px;
+  border-right: 1px solid #C2D6CD;
+}
+
+.table-body-item.differ {
+  margin: 10px 0;
+  padding-left: 30px;
+  width: 175px;
+  background: #0BBC55;
+  border: none;
+  font-size: 18px;
+  font-family: PingFangSC-Semibold, PingFang SC;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+  line-height: 148px;
+  text-align: left;
+}
+
+.table-body-item.differ.one {
+  margin-top: 0;
+}
+
+.table-item-icon {
+  margin-top: 50%;
+  transform: translateY(-50%);
+}
+
+.table-body-item.time {
+  background-color: #EBEBEB;
+}
+
+.schedule-section {
+  background: #00aa46;
+}
+
+.schedule-container {
+  width: 1920px;
+  margin: 0 auto;
+  padding: 100px 0 90px 398px;
+  background-image: url(./../images/schedule-bg.png);
+}
+
+.schedule-title {
+  margin-left: 78px;
+  margin-bottom: 70px;
+}
+
+.schedule-time {
+  margin-bottom: 20px;
+}
+
+.schedule-time-img {
+  margin: 0 135px 0 18px;
+}
+
+.schedule-time-img.differ {
+  margin-right: 118px;
+}
+
+.schedule-border {
+  height: 32px;
+  margin-left: 59px;
+  margin-bottom: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.schedule-icon-circle {
+  position: absolute;
+  left: 8px;
+}
+
+.schedule-icon-dot {
+  margin: 0 19px;
+}
+
+.schedule-icon-star {
+  margin: 0 19px;
+}
+
+.schedule-tag {
+  margin-right: 116px;
+  position: relative;
+}
+
+.schedule-tag-info {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 20px;
+}
+
+.schedule-tag-info-bg {
+  display: inline-block;
+  position: relative;
+  width: 122px;
+  height: 70px;
+  background-color: #007841;
+  margin-left: 20px;
+}
+
+.selection-section {
+  background-image: url(./../images/bg-white.png);
+  position: relative;
+}
+
+.selection-container {
+  width: 1920px;
+  margin: 0 auto;
+  padding: 100px 0 80px 0;
+  padding-left: 418px;
+  position: relative;
+}
+
+.selection-title {
+  margin-left: 58px;
+  margin-bottom: 43px;
+}
+
+.selection-finals {
+  width: 520px;
+  height: 155px;
+  position: relative;
+  z-index: 2;
+}
+
+.selection-finals-img {
+  position: absolute;
+  left: 29px;
+  top: 33px;
+}
+
+.selection-finals-info {
+  position: absolute;
+  left: 141px;
+  top: 30px;
+}
+
+.selection-finals-subtitle {
+  font-size: 18px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  line-height: 36px;
+  margin-top: 6px;
+}
+
+.selection-semifinals {
+  width: 695px;
+  height: 214px;
+  margin-top: -37px;
+  position: relative;
+  z-index: 1;
+}
+
+.selection-semifinals-img {
+  position: absolute;
+  left: 51px;
+  top: 69px;
+}
+
+.selection-semifinals-info {
+  position: absolute;
+  top: 72px;
+  left: 135px;
+}
+
+.selection-semifinals-subtitle,
+.selection-preliminary-subtitle {
+  font-size: 18px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  line-height: 36px;
+  margin-top: 6px;
+}
+
+.selection-preliminary {
+  width: 1089px;
+  height: 195px;
+  margin-top: -33px;
+  position: relative;
+}
+
+.selection-preliminary-img {
+  position: absolute;
+  left: 58px;
+  top: 55px;
+}
+
+.selection-preliminary-info {
+  position: absolute;
+  top: 55px;
+  left: 135px;
+}
+
+.selection-illustration {
+  position: absolute;
+  left: 938px;
+  top: 289px;
+  z-index: 4;
+}
+
+.prize-section {
+  background: #00aa46;
+}
+
+.prize-img {
+  margin: 0 auto;
+  width: 1920px;
+}
+
+.qa-section,
+.college-section,
+.partner-section,
+.media-section {
+  background: #fff;
+}
+
+.qa-container,
+.college-container,
+.partner-container,
+.media-container {
+  width: 1920px;
+  margin: 0 auto;
+  padding: 0 0 0 476px;
+  position: relative;
+}
+
+.qa-title {
+  padding-top: 100px;
+}
+
+.qa-list {
+  margin-top: 40px;
+  display: flex;
+  height: 616px;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 90px;
+}
+
+.qa-item-q {
+  font-size: 18px;
+  font-family: PingFangSC-Semibold, PingFang SC;
+  font-weight: 600;
+  color: rgba(0, 170, 70, 1);
+  line-height: 32px;
+}
+
+.qa-item-a {
+  font-size: 18px;
+  font-family: PingFangSC-Semibold, PingFang SC;
+  font-weight: 600;
+  color: #000;
+  line-height: 32px;
+}
+
+.border {
+  width: 965px;
+  height: 1px;
+  background: rgba(202, 202, 202, 1);
+  margin-bottom: 60px;
+}
+.college-title{
+  padding-top: 20px;
+}
+.college-btn {
+  position: absolute;
+  left: 1327px;
+  top: 36px;
+  float: right;
+  outline: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.college-list {
+  width: 970px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.college-item {
+  width: 186px;
+  height: 250px;
+  text-align: center;
+  padding-top: 30px;
+  background-color: rgba(216, 216, 216, 0.2);
+}
+
+.college-img {
+  width: 150px;
+  margin-bottom: 24px;
+}
+
+.college-info {
+  font-size: 18px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  line-height: 25px;
+}
+
+.partner-img {
+  width: 892px;
+  margin-bottom: 63px;
+}
+
+.media-img {
+  width: 830px;
+  margin-bottom: 63px;
+}

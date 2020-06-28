@@ -26,6 +26,7 @@
 }
 
 .nav-highlight {
+  width: 174px;
   position: absolute;
   left: 360px;
 }
@@ -33,19 +34,27 @@
 .nav-list {
   width: 1131px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
 .nav-item {
   z-index: 1;
-  width: 174px;
   height: 90px;
   cursor: pointer;
   text-align: center;
 }
 
+.nav-item.black {
+  width: 174px;
+  background-image: url(./../images/nav-black.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
 .nav-item-img {
+  width: 50%;
   margin-top: 45px;
   transform: translateY(-50%);
 }
@@ -77,6 +86,7 @@
 
 .track-section {
   background-image: url(./../images/bg-white.png);
+  background-size: 100%;
   position: relative;
 }
 
@@ -92,7 +102,13 @@
   margin-bottom: 34px;
 }
 
+.track-title-img {
+  width: 50%;
+}
+
 .track-btn {
+  width: 217px;
+  height: 72px;
   border: none;
   outline: none;
   background-color: transparent;
@@ -101,6 +117,10 @@
   position: absolute;
   top: 80px;
   padding: 0;
+  background-image: url(./../images/track-btn.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .track-content {
@@ -120,6 +140,7 @@
 }
 
 .track-side-img {
+  width: 50%;
   transform: translateY(-50%);
 }
 
@@ -194,8 +215,23 @@
   transform: translateY(-50%);
 }
 
+.table-item-icon.time {
+  margin-top: 47px;
+  transform: translateY(0);
+  width: 38.5px;
+}
+
 .table-body-item.time {
   background-color: #EBEBEB;
+}
+
+.table-item-info {
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(119, 117, 117, 1);
+  line-height: 20px;
+  padding-top: 6px;
 }
 
 .schedule-section {
@@ -207,11 +243,16 @@
   margin: 0 auto;
   padding: 100px 0 90px 398px;
   background-image: url(./../images/schedule-bg.png);
+  background-size: 100%;
 }
 
 .schedule-title {
   margin-left: 78px;
   margin-bottom: 70px;
+}
+
+.schedule-title-img {
+  width: 260px;
 }
 
 .schedule-time {
@@ -220,10 +261,15 @@
 
 .schedule-time-img {
   margin: 0 135px 0 18px;
+  width: 129px;
 }
 
-.schedule-time-img.differ {
+.schedule-time-img.distance {
   margin-right: 118px;
+}
+
+.schedule-time-img.size {
+  width: 167px;
 }
 
 .schedule-border {
@@ -235,43 +281,86 @@
   align-items: center;
 }
 
-.schedule-icon-circle {
-  position: absolute;
-  left: 8px;
+.schedule-icon-dot {
+  width: 10px;
 }
 
-.schedule-icon-dot {
-  margin: 0 19px;
+.schedule-line {
+  width: 234px;
+}
+
+.schedule-icon-bg {
+  width: 32px;
+  height: 32px;
+  margin: 0 8px;
+  text-align: center;
+  padding-top: 11px;
+  flex-shrink: 0;
+}
+
+.schedule-icon-bg.circle {
+  background-image: url(./../images/schedule-icon-circle.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .schedule-icon-star {
-  margin: 0 19px;
+  width: 11px;
 }
 
-.schedule-tag {
-  margin-right: 116px;
+.schedule-tag-container {
+  margin-top: 10px;
+}
+
+.schedule-tag-info-one {
+  width: 96px;
+}
+
+.schedule-tag-info-two,
+.schedule-tag-info-three {
+  width: 72px;
+}
+
+.schedule-tag-info-four,
+.schedule-tag-info-five {
+  width: 48px;
+}
+
+.schedule-tag-bg {
   position: relative;
-}
-
-.schedule-tag-info {
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%);
-  bottom: 20px;
-}
-
-.schedule-tag-info-bg {
   display: inline-block;
-  position: relative;
+  width: 166px;
+  height: 80px;
+  text-align: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.schedule-tag-bg.img-black {
+  background-image: url(./../images/schedule-black.png);
+  padding-top: 34px;
+}
+
+.schedule-tag-bg.img-green {
+  margin-left: 116px;
+  background-image: url(./../images/schedule-green.png);
+  padding-top: 34px;
+}
+
+.schedule-tag-bg.green {
   width: 122px;
   height: 70px;
   background-color: #007841;
+  text-align: center;
+  padding-top: 24px;
   margin-left: 20px;
 }
 
 .selection-section {
   background-image: url(./../images/bg-white.png);
   position: relative;
+  background-size: 100%;
 }
 
 .selection-container {
@@ -287,7 +376,13 @@
   margin-bottom: 43px;
 }
 
+.selection-title-img {
+  width: 212px;
+}
+
 .selection-finals {
+  background-image: url(./../images/selection-green.png);
+  background-size: 100%;
   width: 520px;
   height: 155px;
   position: relative;
@@ -295,6 +390,7 @@
 }
 
 .selection-finals-img {
+  width: 90px;
   position: absolute;
   left: 29px;
   top: 33px;
@@ -304,6 +400,11 @@
   position: absolute;
   left: 141px;
   top: 30px;
+}
+
+.selection-finals-title,
+.selection-preliminary-title {
+  width: 90px;
 }
 
 .selection-finals-subtitle {
@@ -316,6 +417,8 @@
 }
 
 .selection-semifinals {
+  background-image: url(./../images/selection-white.png);
+  background-size: 100%;
   width: 695px;
   height: 214px;
   margin-top: -37px;
@@ -324,6 +427,7 @@
 }
 
 .selection-semifinals-img {
+  width: 46px;
   position: absolute;
   left: 51px;
   top: 69px;
@@ -333,6 +437,10 @@
   position: absolute;
   top: 72px;
   left: 135px;
+}
+
+.selection-semifinals-title {
+  width: 113px;
 }
 
 .selection-semifinals-subtitle,
@@ -346,6 +454,8 @@
 }
 
 .selection-preliminary {
+  background-image: url(./../images/selection-grey.png);
+  background-size: 100%;
   width: 1089px;
   height: 195px;
   margin-top: -33px;
@@ -353,6 +463,7 @@
 }
 
 .selection-preliminary-img {
+  width: 37px;
   position: absolute;
   left: 58px;
   top: 55px;
@@ -370,16 +481,21 @@
   top: 289px;
   z-index: 4;
 }
+.selection-illustration-img{
+  width: 641px;
+}
 
 .prize-section {
   background: #00aa46;
 }
 
-.prize-img {
+.prize-container {
   margin: 0 auto;
   width: 1920px;
 }
-
+.prize-img{
+  width: 100%;
+}
 .qa-section,
 .college-section,
 .partner-section,
@@ -400,7 +516,9 @@
 .qa-title {
   padding-top: 100px;
 }
-
+.qa-title-img{
+  width: 231px;
+}
 .qa-list {
   margin-top: 40px;
   display: flex;
@@ -432,16 +550,25 @@
   background: rgba(202, 202, 202, 1);
   margin-bottom: 60px;
 }
-.college-title{
+
+.college-title {
   padding-top: 20px;
 }
+.college-title-img{
+  width: 210px;
+}
 .college-btn {
+  background-image: url(./../images/college-all.png);
+  background-color: transparent;
+  width: 108px;
+  height: 36px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
   position: absolute;
   left: 1327px;
   top: 36px;
-  float: right;
   outline: none;
-  background: none;
   border: none;
   cursor: pointer;
 }
